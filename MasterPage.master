@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            text-decoration: none;
+        }
+        .style2
+        {
+            width: 683px;
+            text-decoration: none;
+        }
+        .style3
+        {
+            height: 37px;
+            text-decoration: none;
+        }
+        .style4
+        {
+            width: 683px;
+            height: 37px;
+            text-decoration: none;
+        }
+        .style5
+        {
+            height: 37px;
+            width: 348px;
+            text-decoration: none;
+        }
+        .style6
+        {
+            width: 348px;
+            text-decoration: none;
+        }
+        .style7
+        {
+            height: 100px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1">
+            <tr>
+             <td class="style3" colspan="2">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Home/PetHeader.jpg" />
+                </td>
+                 </tr>
+            <tr>
+                <td class="style5">
+                    <asp:TreeView ID="TreeView1" runat="server" 
+                        DataSourceID="SiteMapDataSourceTree" ShowLines="True" Height="510px" 
+                        Width="156px" ExpandDepth="1">
+                    </asp:TreeView>
+                </td>
+                <td class="style4">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                    </asp:SiteMapPath>
+                    </td>
+            </tr>
+            <tr>
+                <td class="style6">
+                    &nbsp;</td>
+                <td class="style2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="style7">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style6">
+                    <asp:SiteMapDataSource ID="SiteMapDataSourceTree" runat="server" />
+                </td>
+                <td class="style2">
+                    &nbsp;</td>
+            </tr>
+
+        </table>
+    </div>
+    </form>
+</body>
+</html>

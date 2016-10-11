@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+      
+        <siteMapNode url="Home.aspx" title="Home"  description="" />
+      
+        <siteMapNode url="ShopByDepartment.aspx" title="Shop By Department"  description="" >
+            <siteMapNode url="Animals.aspx" title="Animals"  description="" >
+                <siteMapNode url="Dogs.aspx" title="Dogs"  description="" />
+                <siteMapNode url="Cats.aspx" title="Cats"  description="" />
+                <siteMapNode url="Birds.aspx" title="Birds"  description="" />
+                <siteMapNode url="Reptiles.aspx" title="Reptiles"  description="" />
+                <siteMapNode url="Fish.aspx" title="Fish"  description="" />
+                <siteMapNode url="Rodents.aspx" title="Rodents"  description="" />
+          </siteMapNode>
+          
+                <siteMapNode url="Homes.aspx" title="Homes"  description="" >
+                  <siteMapNode url="DogKennels.aspx" title="Dog Kennels"  description="" />
+                  <siteMapNode url="CatBoxes.aspx" title="Cat Boxes"  description="" />
+                  <siteMapNode url="BirdCages.aspx" title="Bird Cages"  description="" />
+                  <siteMapNode url="ReptileHouses.aspx" title="Reptile Houses"  description="" />
+                  <siteMapNode url="FishTanks.aspx" title="Fish Tanks"  description="" />
+                  <siteMapNode url="RodentHuts.aspx" title="Rodent Huts"  description="" />
+                </siteMapNode>
+          
+                <siteMapNode url="Accessories.aspx" title="Accessories"  description="" >
+                    <siteMapNode url="Toys.aspx" title="Toys"  description="" />
+                    <siteMapNode url="Dogleads.aspx" title="DogLeads"  description="" />
+                    <siteMapNode url="Beds.aspx" title="Beds"  description="" />
+                </siteMapNode>
+            
+                <siteMapNode url="FoodAndDrink.aspx" title="FoodAndDrink"  description="" >
+                  <siteMapNode url="DogFood.aspx" title="Dogs"  description="" />
+                  <siteMapNode url="CatFood.aspx" title="Cats"  description="" />
+                  <siteMapNode url="BirdFood.aspx" title="Birds"  description="" />
+                  <siteMapNode url="ReptileFood.aspx" title="Reptiles"  description="" />
+                  <siteMapNode url="FishFood.aspx" title="Fish"  description="" />
+                  <siteMapNode url="RodentFood.aspx" title="Rodents"  description="" />
+              </siteMapNode>
+        </siteMapNode>
+      
+      
+      <siteMapNode url="ContactUs.aspx" title="Contact Us"  description="" />
+      <siteMapNode url="Order.aspx" title="Orders"  description="" />
+      <siteMapNode url="Cart.aspx" title="Cart"  description="" />
+  </siteMapNode>
+</siteMap>

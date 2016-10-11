@@ -1,0 +1,7 @@
+Changes made since presentation:
+
+1. Image display fix
+2. Radio buttons on "Contact Us" page for "Gender"
+3. Fixed tree view so that it didn't overlap with text of the webpage
+4. Causes validation on some of the pages we set to "True" as that wasn't done earlier
+5. Added in "Order" page to the Treeview for easier access
